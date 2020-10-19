@@ -14,8 +14,7 @@
         <div class="form">
             <div class="bot-inbox inbox">
                 <div class="icon">
-                    <i ></i>
-                    <!--<i class="fas fa-user" ></i>-->
+                    <i></i>
                 </div>
                 <div class="msg-header">
                     <p>Olá, seja bem vindo(a). Fico feliz com sua visita!</p>
@@ -46,6 +45,7 @@
                     success: function(result){
                         $replay = '<div class="bot-inbox inbox"><div class="icon"><i class="fas fa-user"></i></div><div class="msg-header"><p>'+ result +'</p></div></div>';
                         $(".form").append($replay);
+                      
                         // quando o chat desce, a barra de rolagem desce automaticamente
                         $(".form").scrollTop($(".form")[0].scrollHeight);
                     }
@@ -53,6 +53,8 @@
             });
         });
     </script>
+  
+      <script src="app.js"></script>
     
 </body>
 </html>
