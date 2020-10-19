@@ -26,7 +26,7 @@
               
               <form class="chat" method="post" autocomplete="off">
                 <input id="data" type="text" placeholder="Digite sua mensagem..." required>
-                <button id="send-btn">Enviar</button>
+                <button id="btn">Enviar</button>
               </form>
               
             </div>
@@ -35,7 +35,7 @@
 
     <script>
         $(document).ready(function(){
-            $("#send-btn").on("click", function(){
+            $("#btn").on("click", function(){
                 $value = $("#data").val();
                 $msg = '<div class="user-inbox inbox"><div class="msg-header"><p>'+ $value +'</p></div></div>';
                 $(".form").append($msg);
