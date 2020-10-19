@@ -2,7 +2,7 @@
 
 include "Cep.php";
 include "Bot.php";
-include "Cotacao.php";
+
 
 $bot = new Bot;
 
@@ -47,32 +47,13 @@ if (isset($_GET['msg'])) {
         }
 
 
-        # cotação de moedas
-        $moedas = [
-            'dolar' => 'USD-BRL',
-            'euro' => 'EUR-BRL',
-            'bitcoin' => 'BTC-BRL'
-        ];
-        # cotação euro
-        if (preg_match('/cotação/', $msg) == 1) {
-            preg_match('/[^cotação].*/', $msg, $matches);
-
-            $cotacao = new Cotacao($botty->ask($matches[0], $moedas));
-            $data = $cotacao->getData();
-            $tmp  = 'Data: ' . $data[0] . '<br>';
-            $tmp .= 'Máx: ' . $data[1] . '<br>';
-            $tmp .= 'Min: ' . $data[2] . '<br>';
-            $botty->reply($tmp);
-            die();
-        }
-
         $generics = ['oi', 'oie', 'ola', 'olá', 'bom dia', 'boa tarde', 'boa noite'];
         if (in_array($msg, $generics)) {
             $botty->reply('Olá. Em que posso ajudar?');
         } elseif ($botty->ask($msg, $questions) == "") {
             $botty->reply("Desculpe, não entendi.");
         } else {
-            $botty->reply($botty->ask($msg, $questions));
+            $botty -> reply($botty -> ask($msg, $questions));
         }
     });
 }

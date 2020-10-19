@@ -23,7 +23,7 @@ const getMessage = (msg) => {
         }
     };
 
-    xhr.open("GET", "bot/chat.php?msg=" + msg, true);
+    xhr.open("GET", "chat.php?msg=" + msg, true);
     xhr.send();
 };
 

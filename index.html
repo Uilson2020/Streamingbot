@@ -24,39 +24,14 @@
         <div class="typing-field">
             <div class="input-data">
               
-              <form class="chat" method="post" autocomplete="off">
+              <form class="chat" method="post" autocomplete="off"></form>
                 <input id="data" type="text" placeholder="Digite sua mensagem..." required>
                 <button id="btn">Enviar</button>
-              </form>
+              
               
             </div>
         </div>
     </div>
-
-    <script>
-        $(document).ready(function(){
-            $("#btn").on("click", function(){
-                $value = $("#data").val();
-                $msg = '<div class="user-inbox inbox"><div class="msg-header"><p>'+ $value +'</p></div></div>';
-                $(".form").append($msg);
-                $("#data").val('');
-                
-                // iniciar o ajax
-                $.ajax({
-                    url: 'message.php',
-                    type: 'POST',
-                    data: 'text='+$value,
-                    success: function(result){
-                        $replay = '<div class="bot-inbox inbox"><div class="icon"><i class="fas fa-user"></i></div><div class="msg-header"><p>'+ result +'</p></div></div>';
-                        $(".form").append($replay);
-                      
-                        // quando o chat desce, a barra de rolagem desce automaticamente
-                        $(".form").scrollTop($(".form")[0].scrollHeight);
-                    }
-                });
-            });
-        });
-    </script>
   
       <script src="app.js"></script>
     
