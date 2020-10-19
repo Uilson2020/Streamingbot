@@ -67,7 +67,7 @@ html,body{
     width: 45px;
     color: #fff;
     text-align: center;
-    line-height: 40px;
+    line-height: 45px;
     font-size: 18px;
     background: transparent url("https://cdn.glitch.com/528c9c78-4ebb-4a7c-b765-4ab8d205877a%2FStreaming%20Bot%202%20(3).png?v=1603084471631") no-repeat left bottom;;
   
@@ -75,6 +75,7 @@ html,body{
 .wrapper .form .inbox .msg-header{
     max-width: 57%;
     margin-left: 10px;
+  
 }
  /* mensagens do bot */
 .form .inbox .msg-header p{
