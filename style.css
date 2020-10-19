@@ -70,7 +70,7 @@ html,body{
     line-height: 40px;
     border-radius: 50%;
     font-size: 18px;
-    background: img("https://cdn.glitch.com/528c9c78-4ebb-4a7c-b765-4ab8d205877a%2Flogo.jpeg?v=1603083500015");
+    background: transparent url("");
   
 }
 .wrapper .form .inbox .msg-header{
