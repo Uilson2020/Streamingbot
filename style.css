@@ -43,10 +43,10 @@ html {
   }
 
   a:hover{ 
-    background: rgb(255, 255, 255);
-        width: 110pt;
-    height: 110pt; 
-    
+    color: rgb(255, 255, 255);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+      
   }
 
   a:active {
@@ -54,17 +54,24 @@ html {
     
   }
 
+
 .chatbot{
-  color: rgb(255, 0, 0);
+    color: rgb(255, 0, 0);
+    transition: all 0.5s;
+    cursor: pointer;
   
 }
 
 .favorito {
-  color: rgb(255, 165, 0);
+   color: rgb(255, 165, 0);
+   transition: all 0.5s;
+   cursor: pointer;
 }
 
 .noticias{
   color: rgb(70,130,180);
+  transition: all 0.5s;
+  cursor: pointer;
   
 }
 
@@ -78,26 +85,26 @@ img{
 }
 
   .circle {
-  background-color: rgb(255, 250, 250);
-  border-radius: 50%;
-  width: 80px;
-  height: 80px;
-  overflow: hidden;
-  position: relative;
-  position:fixed;
-  bottom: 70px;
-  right: 12px;
+    background-color: rgb(255, 250, 250);
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    position: relative;
+    position:fixed;
+    bottom: 70px;
+    right: 12px;
 }
 
 .rodape{
-  grid-area: footer;
-  text-align: center;
-  background: rgb(28, 28, 28);
-  color: rgb(255, 250, 250);
-  width: 100%;
-  bottom: 0;
-  position: absolute;
-  padding: 15pt;
+    grid-area: footer;
+    text-align: center;
+    background: rgb(28, 28, 28);
+    color: rgb(255, 250, 250);
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+    padding: 15pt;
 }
 
 @media screen and (min-width:400px) and (max-width: 2000px) {
