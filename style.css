@@ -12,7 +12,7 @@ body {
 }
 
 html { 
-   background: url("https://cdn.glitch.com/528c9c78-4ebb-4a7c-b765-4ab8d205877a%2F60ff6091-efe8-4f6b-ab44-9d70e80afd07.image.png?v=1603171297503") no-repeat center center fixed; 
+   background: url("https://cdn.glitch.com/528c9c78-4ebb-4a7c-b765-4ab8d205877a%2Fdog-glasses-drink-popcorn-wallpaper-preview.jpg?v=1603163591624") no-repeat center center fixed; 
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
@@ -68,12 +68,16 @@ a{
 
   }
 
+.favorito {
+  color: rgb(255, 165, 0);
+}
+
 img{
     position:fixed;
     bottom: 80px;
     right: 30px;
     width: 12%;
-    height: 10%; 
+    height: 12%; 
   
 }
 
@@ -85,7 +89,27 @@ img{
     position:fixed;
     bottom: 100px;
     right: 30px;
-    width: 6%;
-    height: 10%; 
+    width: 8%;
+    height: 12%; 
   
 }
+  
+  .circle {
+  background-color: #aaa;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  position: relative;
+}
+
+.circle img {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+    
+html { 
+   background: url("https://cdn.glitch.com/528c9c78-4ebb-4a7c-b765-4ab8d205877a%2Fdog-glasses-drink-popcorn-wallpaper-preview.jpg?v=1603163591624") no-repeat center center fixed; 
+
+  }
