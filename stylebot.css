@@ -27,6 +27,11 @@ html,body{
     
 }
 
+.voltar:img{
+  left: 100%;
+  
+}
+
 ::selection{
     color: #fff;
     background: rgb(128, 0, 0);
