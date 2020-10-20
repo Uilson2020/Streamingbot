@@ -19,17 +19,24 @@ html {
    background-size: cover;
 }
 
-.cabecalho{
+/*.cabecalho{
     background: rgb(28, 28, 28);
     grid-area: header;
     font-family: fantasy;
     padding: 20pt;
+  
+}*/
+
+#menu ul {
+    padding: 10px;
+    margin: 0px;
+    background: rgb(28, 28, 28);
+    list-style:none;
+  
 }
 
- nav {
-    word-spacing: 20pt;
-          
-  }
+#menu ul li { display: inline; }
+
 
   a:link {
     text-decoration: none;
@@ -43,17 +50,12 @@ html {
 
   a:hover{ 
     background: rgb(255, 255, 255);
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    overflow: hidden;
-    position: relative;
     
   }
 
   a:active {
     text-decoration: none;
-
+    
   }
 
 .chatbot{
