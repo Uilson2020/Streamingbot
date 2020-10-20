@@ -23,14 +23,8 @@ html {
     background: rgb(28, 28, 28);
     grid-area: header;
     font-family: fantasy;
-    color: rgb(255, 250, 250);
     padding: 20pt;
 }
-
-a{
-  color: rgb(128, 0, 0);
-}
-
 
   nav {
     word-spacing: 25pt;
