@@ -19,24 +19,17 @@ html {
    background-size: cover;
 }
 
-/*.cabecalho{
+.cabecalho{
     background: rgb(28, 28, 28);
     grid-area: header;
     font-family: fantasy;
-    padding: 20pt;
-  
-}*/
-
-#menu ul {
-    padding: 10px;
-    margin: 0px;
-    background: rgb(28, 28, 28);
-    list-style:none;
   
 }
 
-#menu ul li { display: inline; }
-
+ nav {
+    word-spacing: 20pt;
+          
+  }
 
   a:link {
     text-decoration: none;
