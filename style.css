@@ -60,10 +60,22 @@ a{
 
   }
 
-$('.carousel').slick({
-  dots: true,
-  infinite: true,
-  speed: 500,
-  slidesToShow: 4,
-  slidesToScroll: 4,
-});
+img{
+    position:fixed;
+    bottom: 80px;
+    right: 30px;
+    width: 12%;
+    height: 10%; 
+  
+}
+
+@media screen and (min-width:400px) and (max-width: 1980px) {
+  
+img{
+   position:fixed;
+   bottom: 90px;
+   right: 30px;
+   width: 5%;
+   height: 8%; 
+  
+}
