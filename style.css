@@ -62,6 +62,8 @@ a{
 
   a:hover{ 
     text-decoration: none;
+    background: rgb(79, 79, 79);
+    padding: 15pt;
   }
 
   a:active {
@@ -69,8 +71,18 @@ a{
 
   }
 
+.chatbot{
+  color: rgb(139, 0, 0);
+  
+}
+
 .favorito {
   color: rgb(255, 165, 0);
+}
+
+.noticias{
+  color: rgb(220, 220, 220);
+  
 }
 
 img{
