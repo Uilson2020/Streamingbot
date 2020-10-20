@@ -47,12 +47,13 @@ a{
 }
 
   nav {
-    word-spacing: 10pt;
+    word-spacing: 25pt;
     
   }
 
   a:link {
     text-decoration: none;
+    
   }
 
   a:visited {
@@ -62,8 +63,9 @@ a{
 
   a:hover{ 
     text-decoration: none;
-    background: rgb(79, 79, 79);
-    padding: 15pt;
+    background: rgb(255, 255, 255);
+    padding: 19pt;
+    
   }
 
   a:active {
