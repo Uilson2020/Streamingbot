@@ -76,11 +76,22 @@ img{
     position:fixed;
     bottom: 80px;
     right: 30px;
-    width: 10%;
-    height: 12%; 
+    width: 12%;
+    height: 11%; 
   
 }
 
+  .circle {
+  background-color: rgb(255, 250, 250);
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  overflow: hidden;
+  position: relative;
+  position:fixed;
+  bottom: 70px;
+  right: 12px;
+}
 
 
 
