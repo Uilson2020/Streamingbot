@@ -76,10 +76,11 @@ img{
     position:fixed;
     bottom: 80px;
     right: 30px;
-    width: 12%;
+    width: 10%;
     height: 12%; 
   
 }
+
 
 
 
@@ -89,27 +90,12 @@ img{
     position:fixed;
     bottom: 100px;
     right: 30px;
-    width: 8%;
+    width: 6%;
     height: 12%; 
   
-}
-  
-  .circle {
-  background-color: #aaa;
-  border-radius: 50%;
-  width: 150px;
-  height: 150px;
-  overflow: hidden;
-  position: relative;
-}
-
-.circle img {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
 }
     
 html { 
    background: url("https://cdn.glitch.com/528c9c78-4ebb-4a7c-b765-4ab8d205877a%2Fdog-glasses-drink-popcorn-wallpaper-preview.jpg?v=1603163591624") no-repeat center center fixed; 
 
-  }
+}
