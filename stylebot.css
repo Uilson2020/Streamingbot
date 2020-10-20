@@ -8,8 +8,16 @@
 }
 
 body{
-  background: transparent url("https://cdn.glitch.com/528c9c78-4ebb-4a7c-b765-4ab8d205877a%2Ffundo2.png?v=1603165492927") no-repeat left bottom;
+  background: transparent url("") no-repeat left bottom;
   
+}
+
+html { 
+   background: url("https://cdn.glitch.com/528c9c78-4ebb-4a7c-b765-4ab8d205877a%2Ffundo2.png?v=1603165492927") no-repeat center center fixed; 
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
 }
 
 html,body{
