@@ -27,8 +27,8 @@ html {
 }
 
   nav {
-    word-spacing: 25pt;
-    
+    word-spacing: 20pt;
+        
   }
 
   a:link {
@@ -115,3 +115,7 @@ html {
 
 }
   
+nav {
+   word-spacing: 25pt;
+    
+}
