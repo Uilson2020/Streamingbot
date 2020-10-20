@@ -28,6 +28,7 @@ html {
 
  nav {
     word-spacing: 20pt;
+    padding: 19pt;
           
   }
 
@@ -43,6 +44,7 @@ html {
 
   a:hover{ 
     background: rgb(255, 255, 255);
+    padding: 19pt;
     
   }
 
