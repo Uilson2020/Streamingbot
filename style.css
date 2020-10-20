@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap') no-repeat left bottom;
 *{
     margin: 0;
     padding: 0;
@@ -9,6 +9,7 @@ html,body{
     display: grid;
     height: 100%;
     place-items: center;
+    background: transparent url("https://cdn.glitch.com/528c9c78-4ebb-4a7c-b765-4ab8d205877a%2F194c813a-3f0a-4709-aa51-029badee2645.image.png?v=1603158938334");
 }
 
 ::selection{
@@ -69,7 +70,7 @@ html,body{
     text-align: center;
     line-height: 45px;
     font-size: 18px;
-    background: transparent url("https://cdn.glitch.com/528c9c78-4ebb-4a7c-b765-4ab8d205877a%2FStreaming%20Bot%202%20(3).png?v=1603084471631") no-repeat left bottom;;
+    background: transparent url("https://cdn.glitch.com/528c9c78-4ebb-4a7c-b765-4ab8d205877a%2FStreaming%20Bot%202%20(3).png?v=1603084471631") no-repeat left bottom;
   
 }
 .wrapper .form .inbox .msg-header{
