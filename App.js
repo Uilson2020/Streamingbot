@@ -1,3 +1,5 @@
+
+
 const btnSend = document.getElementById("btn");
 const chat = document.getElementById("chat");
 
