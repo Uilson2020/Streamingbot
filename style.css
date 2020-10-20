@@ -44,8 +44,8 @@ html {
 
   a:hover{ 
     background: rgb(255, 255, 255);
-    width: 110pt;
-    
+        width: 110pt;
+    height: 110pt; 
     
   }
 
