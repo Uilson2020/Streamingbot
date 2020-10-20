@@ -28,7 +28,7 @@ html {
 
   nav {
     word-spacing: 20pt;
-        
+      
   }
 
   a:link {
@@ -44,7 +44,7 @@ html {
   a:hover{ 
     text-decoration: none;
     background: rgb(255, 255, 255);
-    padding: 19pt;
+    height: 100px;
     
   }
 
