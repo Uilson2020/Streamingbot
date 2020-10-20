@@ -1,5 +1,4 @@
-* {
-  
+* { 
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -32,19 +31,6 @@ a{
   color: rgb(128, 0, 0);
 }
 
-.rodape{
-  grid-area: footer;
-  text-align: center;
-  background: rgb(28, 28, 28);
-  color: rgb(255, 250, 250);
-  height: 40px;
-  width: 100%;
-  height: 10%; 
-  bottom: 0;
-  position: absolute;
-  font-family: fantasy;
-  padding: 15pt;
-}
 
   nav {
     word-spacing: 25pt;
@@ -74,7 +60,7 @@ a{
   }
 
 .chatbot{
-  color: rgb(139, 0, 0);
+  color: rgb(255, 0, 0);
   
 }
 
@@ -83,7 +69,7 @@ a{
 }
 
 .noticias{
-  color: rgb(220, 220, 220);
+  color: rgb(70,130,180);
   
 }
 
@@ -108,7 +94,16 @@ img{
   right: 12px;
 }
 
-
+.rodape{
+  grid-area: footer;
+  text-align: center;
+  background: rgb(28, 28, 28);
+  color: rgb(255, 250, 250);
+  width: 100%;
+  bottom: 0;
+  position: absolute;
+  padding: 15pt;
+}
 
 @media screen and (min-width:400px) and (max-width: 2000px) {
   
