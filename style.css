@@ -4,12 +4,18 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+  
 }
+
+body{
+  background: transparent url("https://cdn.glitch.com/528c9c78-4ebb-4a7c-b765-4ab8d205877a%2Ffundochatbot.png?v=1603159902372") no-repeat left bottom;
+}
+
 html,body{
     display: grid;
     height: 100%;
     place-items: center;
-    background: transparent url("https://cdn.glitch.com/528c9c78-4ebb-4a7c-b765-4ab8d205877a%2F194c813a-3f0a-4709-aa51-029badee2645.image.png?v=1603158938334");
+    
 }
 
 ::selection{
