@@ -1,4 +1,4 @@
-
+window.location = "#wall-1";
 
 const btnSend = document.getElementById("btn");
 const chat = document.getElementById("chat");
