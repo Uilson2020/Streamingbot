@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap') no-repeat left bottom;
+@import url('https://fonts.googleapis.com/css?family=Roboto:700,900');
 
 *{
     margin: 0;
@@ -10,7 +11,7 @@
 
 
 html{ 
-   background: url("https://c4.wallpaperflare.com/wallpaper/913/627/735/black-background-digital-art-simple-red-wallpaper-preview.jpg") no-repeat center center fixed; 
+   background: url("https://cdn.glitch.com/528c9c78-4ebb-4a7c-b765-4ab8d205877a%2Fwallpaperflare.com_wallpaper%20(3).jpg?v=1603641809493") no-repeat center center fixed;  
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
@@ -24,12 +25,11 @@ html, body{
     
 }
 
-.wrapper .voltar {
-  float: left;
-  margin: 20px 0px 0px 10px;
-  
-  
-}
+/* h3{
+    color: blue;
+    background-color: darkgrey;
+} */
+
 
 ::selection{
     color: #fff;
@@ -51,14 +51,15 @@ html, body{
 }
 
 .wrapper{
-    width: 370px;
+    width: 600px;
     background: #fff;
     border-radius: 5px;
-    border: 1px solid lightgrey;
+    border: 0px solid lightgrey;
     border-top: 0px;
 }
 .wrapper .title{
-    background: rgb(128, 0, 0); 
+    background: rgb(128, 0, 0);
+    font-family: 'Roboto';
     color: #fff;
     font-size: 20px;
     font-weight: 500;
@@ -66,12 +67,22 @@ html, body{
     text-align: center;
     border-bottom: 1px solid rgb(139, 0, 0);
     border-radius: 5px 5px 0 0;
+   
+}
+.wrapper .voltar {
+  float: left;
+  margin: 10px -10px -100px 10px;
+  height: 40px;
+  text-align: center;
+ 
 }
 .wrapper .form{
+    background: rgb(15, 17, 17); 
     padding: 20px 15px;
-    min-height: 400px;
-    max-height: 400px;
+    min-height: 500px;
+    max-height: 500px;
     overflow-y: auto;
+  
 }
 .wrapper .form .inbox{
     width: 100%;
@@ -85,16 +96,15 @@ html, body{
 .wrapper .form .inbox .icon{
     height: 45px;
     width: 45px;
-    color: #fff;
     text-align: center;
     line-height: 45px;
     font-size: 18px;
-    background: transparent url("https://cdn.glitch.com/528c9c78-4ebb-4a7c-b765-4ab8d205877a%2FStreaming%20Bot%202%20(3).png?v=1603084471631") no-repeat left bottom;
+    background: transparent url("https://cdn.glitch.com/528c9c78-4ebb-4a7c-b765-4ab8d205877a%2FStreaming%20Bot%202%20(7).png?v=1603657237756") no-repeat left bottom;  
   
 }
 .wrapper .form .inbox .msg-header{
-    max-width: 58%;
-    margin-left: 10px;
+    max-width: 60%;
+    margin-left: 20px;
   
 }
  /* mensagens do bot */
@@ -102,7 +112,7 @@ html, body{
     color: #fff;
     background: rgb(128, 0, 0);
     border-radius: 10px;
-    padding: 8px 10px;
+    padding: 10px 10px;
     font-size: 14px;
     word-break: break-all;
 }
@@ -117,15 +127,16 @@ html, body{
     width: 100%;
     align-items: center;
     justify-content: space-evenly;
-    background: #efefef;
+    background: rgb(211, 211, 211);
     border-top: 1px solid #d9d9d9;
     border-radius: 0 0 5px 5px;
 }
  /* altura campo de texto */
 .wrapper .typing-field .input-data{
     height: 40px;
-    width: 335px;
+    width: 550px;
     position: relative;
+  
 }
 .wrapper .typing-field .input-data input{
     height: 100%;
@@ -171,5 +182,20 @@ html, body{
     pointer-events: auto;
 }
 .typing-field .input-data button:hover{
-    background: #006fef;
+    background: rgb(178, 34, 34);
+}
+
+a:link, a:visited{
+    text-decoration: underline;
+    color: #fff;  
+}
+
+a:hover{
+    text-decoration: underline;
+    color: #fff; 
+    opacity: 0.7; 
+}
+
+a:active{
+    text-decoration: none;
 }

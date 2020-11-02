@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,10 +10,9 @@
     <link rel="sortcut icon" href="https://cdn.glitch.com/528c9c78-4ebb-4a7c-b765-4ab8d205877a%2FStreaming%20Bot%202%20(3).png?v=1603084471631" type="png" />
 </head>
 <body>
-   
   
     <div class="wrapper">
-        <div class="title"> <a href = "index.html"><img class = "voltar" src = "https://cdn.glitch.com/528c9c78-4ebb-4a7c-b765-4ab8d205877a%2Fseta-esquerda.png?v=1603208650249" ></a> Streamingbot</div>
+        <div class="title"> <a href = "index.html"><img class = "voltar" src = "https://img.icons8.com/plasticine/100/000000/circled-left-2.png" height = "35px" text-align = "center" margin = "10px -10px -100px 10px alt = "voltar" " ></a> STREAMINGBOT</div>
       
         <div class="form">
             <div class="bot-inbox inbox">
@@ -21,7 +20,9 @@
                     <i></i>
                 </div>
                 <div class="msg-header">
-                    <p>Olá, seja bem vindo(a). Fico feliz com sua visita!</p>
+                    <p>Olá, seja bem vindo(a). Fico feliz com sua visita!<br>
+                    é sua primeira vez aqui?<br><br>sim<br>não
+                    </p>
                 </div>
             </div>
         </div>
@@ -32,6 +33,16 @@
                 <input id="data" type="text" placeholder="Digite sua mensagem..." required>
                 <button id="btn">Enviar</button>
               
+	<script>
+		var input = document.getElementById("data");
+		input.addEventListener("keyup", function(event) {
+  		if (event.keyCode === 13) {
+   		   event.preventDefault();
+   		   document.getElementById("btn").click();
+  		}
+	  });
+	</script>
+
               <script>
                 $(document).ready(function(){
                 $("#btn").on("click", function(){
@@ -46,7 +57,7 @@
                     type: 'POST',
                     data: 'text='+$value,
                     success: function(result){
-                        $replay = '<div class="bot-inbox inbox"><div class="icon"><i class="fas fa-user"></i></div><div class="msg-header"><p>'+ result +'</p></div></div>';
+                        $replay = '<div class="bot-inbox inbox"><div class="icon"><i class="#"></i></div><div class="msg-header"><p>'+ result +'</p></div></div>';
                         $(".form").append($replay);
                       
                         // quando o chat desce, a barra de rolagem desce automaticamente
@@ -62,7 +73,7 @@
         </div>
     </div>
   
-      <script src="app.js"></script>
+      
     
 </body>
 </html>
