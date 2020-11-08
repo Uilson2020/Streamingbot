@@ -58,6 +58,7 @@
                     data: 'text='+$value,
                     success: function(result){
                         $replay = '<div class="bot-inbox inbox"><div class="icon"><i class="#"></i></div><div class="msg-header"><p>'+ result +'</p></div></div>';
+                       //por emoji
                         $(".form").append($replay);
                       
                         // quando o chat desce, a barra de rolagem desce automaticamente
